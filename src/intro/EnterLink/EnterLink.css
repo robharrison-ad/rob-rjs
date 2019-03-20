@@ -1,0 +1,25 @@
+.enter-link-wrapper {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.intro-enter-text-content {
+  letter-spacing: .05em;
+  color: #d70026;
+  font-size: 6em;
+  position: absolute;
+  text-align: center;
+  width: 98vw;
+  top: 50vh;
+  text-shadow: 1px 1px 0px #ff5c5c, 1px 2px 0px #f83f3f, 1px 3px 0px #f83f3f, 2px 4px 0px #f83f3f, 3px 5px 0px #f83f3f, 4px 6px 0px #f83f3f, 5px 7px 0px #f83f3f;
+}
+
+.intro-enter-text-content:hover {
+  color: #90A0CF;
+  text-shadow: 1px 1px 0px #1eafc2, 1px 2px 0px #1eafc2, 1px 3px 0px #1eafc2, 2px 4px 0px #1eafc2, 3px 5px 0px #1eafc2, 4px 6px 0px #1eafc2, 5px 7px 0px #1eafc2;
+}
+
+.EnterLink {
+  /* propertys here */
+}

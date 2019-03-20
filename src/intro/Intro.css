@@ -1,0 +1,14 @@
+.intro-bg-frame {
+    background-image: url(../assets/images/wopr-code-1920-1080-animated-20.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -9999;
+  }
+
+
+.Intro {
+    /* propertys here */
+}
+
