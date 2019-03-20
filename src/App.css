@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.static-footer-message {
+  position: fixed;
+  width: 100vw;
+  height: 3vh;
+  top: 97vh;
+  left: 0px;
+}
+
+.rob-rjs-link {
+  float: right;
+  color: orangered;
+  font-size: 2vh;
+}
+
+.rob-rjs-link:hover {
+  color: rgb(179, 255, 0);
+}
