@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import './EnterLink.css';
+import './Home.css';
 
-class EnterLink extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -20,16 +19,10 @@ class EnterLink extends Component {
   render() {
     return (
       <div>
-        <div className="enter-link-wrapper">
-          <div className="intro-enter-text-content">
-            <Link to="/home/">
-              <span className="hover-glow">ENTER!</span>
-            </Link>
-          </div>
-        </div>
+        HOME
       </div>
     );
   }
 }
 
-export default EnterLink;
+export default Home;

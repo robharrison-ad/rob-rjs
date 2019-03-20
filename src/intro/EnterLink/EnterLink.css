@@ -6,13 +6,17 @@
 
 .intro-enter-text-content {
   letter-spacing: .05em;
-  color: #d70026;
+  color: #d70026 !important;
   font-size: 6em;
   position: absolute;
   text-align: center;
   width: 98vw;
   top: 50vh;
   text-shadow: 1px 1px 0px #ff5c5c, 1px 2px 0px #f83f3f, 1px 3px 0px #f83f3f, 2px 4px 0px #f83f3f, 3px 5px 0px #f83f3f, 4px 6px 0px #f83f3f, 5px 7px 0px #f83f3f;
+}
+
+.enter-link {
+    color: #d70026 !important;
 }
 
 .intro-enter-text-content:hover {
