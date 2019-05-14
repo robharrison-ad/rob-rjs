@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Intro.css';
 import '../global.css'
-import Headline from './Headline/Headline';
+import gotcode from '../assets/images/gotcode-secondary-shadow.png'
+
+import Headline from '../common/Headline/Headline';
 import EnterLink from './EnterLink/EnterLink';
 
 class Intro extends Component {
@@ -17,7 +19,7 @@ class Intro extends Component {
       <div>
         <div className="bg-frame intro-bg-frame"></div>
         <div className="page-wrapper intro-page-wrapper">
-          <Headline />
+          <Headline image={gotcode} altText="Got Code?" className="intro-headline-content" />
           <EnterLink />
         </div>
       </div>

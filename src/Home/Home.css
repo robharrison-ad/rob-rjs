@@ -1,7 +1,10 @@
-/*
- * Home css File
-*/
 
-.Home {
-    /* propertys here */
+
+.home-page-content {
+    display: block;
+}
+
+.home-bg-frame {
+    background-image: url(../assets/images/coding-4-flip-1920-1080.png);
+    position: relative;
 }

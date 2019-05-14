@@ -44,6 +44,7 @@
   float: right;
   color: orangered;
   font-size: 2vh;
+  padding-right: 10px;
 }
 
 .rob-rjs-link:hover {

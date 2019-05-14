@@ -12,3 +12,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bg-frame {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spacer {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  color: transparent;
+  background: transparent;
+}
+
+.spacer-150 {
+  height: 150px;
+}
+
+.spacer-top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.bg-frame {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -9999;
+}
+
+
+.themed {
+  color: #f8f5f2;
+}
+
+.themed>.italic {
+  font-style: italic;
+}
+
+.themed>.bold {
+  font-family: 'latobold', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.themed>.shnadow {
+  text-shadow: 1px 1px 1px #827262;
+}
+
+.accented {
+  color: #d70026;
+  font-style: italic;
+  text-shadow: 3px 3px #80192a;
+}
+
+
+
+.page-headline-content {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 8rem; 
+  font-family: 'latoheavy', 'latomedium', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.page-subheadline-content {
+  padding-top: 30px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: latomedium;
+  margin-right: 0px;
+  width: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: relative;
+}
+
+.page-content-box {
+  background: #002385;
+  background: -moz-linear-gradient(left, rgba(62, 84, 135, 0.3) 0%, rgba(46, 62, 100, 0.5) 25%, rgba(31, 42, 68, 0.45) 50%, rgba(46, 62, 100, 0.5) 75%, rgba(62, 84, 135, 0.3) 100%);
+  background: -webkit-linear-gradient(left, rgba(62, 84, 135, 0.3) 0%, rgba(46, 62, 100, 0.5) 25%, rgba(31, 42, 68, 0.45) 50%, rgba(46, 62, 100, 0.5) 75%, rgba(62, 84, 135, 0.3) 100%);
+  background: linear-gradient(to right, rgba(62, 84, 135, 0.3) 0%, rgba(46, 62, 100, 0.5) 25%, rgba(31, 42, 68, 0.45) 50%, rgba(46, 62, 100, 0.5) 75%, rgba(62, 84, 135, 0.3) 100%);
+  -webkit-box-shadow: -3px -8px 30px 11px rgba(0, 35, 133, 0.7), 3px 8px 30px 11px rgba(0, 35, 133, 0.7);
+  box-shadow: -3px -8px 30px 11px rgba(0, 35, 133, 0.7), 3px 8px 30px 11px rgba(0, 35, 133, 0.7);
+  border-radius: 10px;
+  padding: 8vh 6vw;
+  margin-bottom: 25px;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}

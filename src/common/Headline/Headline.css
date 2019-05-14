@@ -1,0 +1,30 @@
+.headline-text {
+  color: #f8f5f2;
+  text-shadow: 3px 3px #827262;
+  font-size: 4rem;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'latoheavy', 'latomedium', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.headline-content {
+  position: absolute;
+  top: calc(5vh + 150px);
+  width: 100%;
+
+}
+
+.headline-content img {
+  width: 90vw;
+  height: 50vh;
+  margin-left: 5vw;
+  margin-right: auto;
+}
+
+.Headline {
+  /* propertys here */
+}

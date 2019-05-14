@@ -24,6 +24,12 @@
   text-shadow: 1px 1px 0px #1eafc2, 1px 2px 0px #1eafc2, 1px 3px 0px #1eafc2, 2px 4px 0px #1eafc2, 3px 5px 0px #1eafc2, 4px 6px 0px #1eafc2, 5px 7px 0px #1eafc2;
 }
 
+a:-webkit-any-link {
+    color: #d70026 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .EnterLink {
   /* propertys here */
 }

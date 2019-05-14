@@ -22,9 +22,11 @@ class EnterLink extends Component {
       <div>
         <div className="enter-link-wrapper">
           <div className="intro-enter-text-content">
-            <Link to="/home/">
+            <a href="https://robh.herokuapp.com/home" target="_blank">
+              {/* <Link to="/home/" className="enter-link"> */}
               <span className="hover-glow">ENTER!</span>
-            </Link>
+              {/* </Link> */}
+            </a>
           </div>
         </div>
       </div>
